@@ -399,6 +399,7 @@ void OpenSprinkler::begin() {
   pinMode(PIN_BUTTON_1, INPUT_PULLUP);
   pinMode(PIN_BUTTON_2, INPUT_PULLUP);
   pinMode(PIN_BUTTON_3, INPUT_PULLUP);
+  pinMode(PIN_BUTTON_4, INPUT_PULLUP);
 }
 
 /** Apply all station bits
